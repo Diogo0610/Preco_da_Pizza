@@ -1,0 +1,37 @@
+package PizzaJava;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+public class Pizza {
+	HashMap<String, Integer> ingredientesUsados = new HashMap<>();
+	List<String> ingredientes = new ArrayList<>();
+	public int qtdIngredientes;
+	int preco;
+	
+	public void adicionarIngredientes(String ingrediente){
+		ingredientes.add(ingrediente);
+		qtdIngredientes++;
+		//contabilizaIngrediente();
+	}
+	
+	public static void contabilizaIngrediente() {
+		
+	}
+	
+	public int getPreco(){
+		if(qtdIngredientes > 0 && qtdIngredientes < 3) {
+			preco = 15;
+		}
+		else if(qtdIngredientes < 6){
+			preco = 20;
+		}
+		else {
+			preco = 23;
+		}
+		return preco;
+	}
+	
+	public Pizza(String string){
+	}
+}

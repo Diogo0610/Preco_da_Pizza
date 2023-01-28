@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;Projeto_Pizza/src/PizzaJava&apos;&#x0D;&#x0A;- Original project: &apos;Projeto_Pizza&apos;&#x0D;&#x0A;- Destination element: &apos;Projeto_Pizza/src/PizzaJava&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Principal.java&#x0D;&#x0A;     Pizza.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;PizzaJava" element1="/src&lt;{Principal.java" element2="/src&lt;{Pizza.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1674859486481" units="2" version="1.0"/>
+</session>

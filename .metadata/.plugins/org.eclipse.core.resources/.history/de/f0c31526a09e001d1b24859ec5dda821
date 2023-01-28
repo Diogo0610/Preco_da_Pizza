@@ -1,0 +1,27 @@
+package PizzaJava;
+
+public class Pizza {
+	public static int qtdIngredientes;
+	String preco;
+	
+	public void adicionarIngredientes(String ingredientes){
+		contabilizaIngrediente();
+	}
+	
+	public static void contabilizaIngrediente() {
+		qtdIngredientes++;
+	}
+	
+	public String getPreco(){
+		if(qtdIngredientes <= 2) {
+			preco = "15 reais";
+		}
+		else if(qtdIngredientes > 6){
+			preco = "20 reais";
+		}
+		else {
+			preco = "23 reais";
+		}
+		return preco;
+	}
+}

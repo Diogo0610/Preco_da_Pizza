@@ -1,0 +1,11 @@
+package PizzaJava;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Pizza pizza1 = new Pizza("queijo, tomate");
+		Pizza pizza2 = new Pizza("queijo, tomate, calabresa, azeitona");
+		Pizza pizza3 = new Pizza("queijo, tomate, ovo, presunto, ervilha, azeitona");
+	}
+
+}

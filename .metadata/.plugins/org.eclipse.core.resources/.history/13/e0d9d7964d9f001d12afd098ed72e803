@@ -1,0 +1,20 @@
+package PizzaJava;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Pizza pizza1 = new Pizza("queijo, tomate");
+		Pizza pizza2 = new Pizza("queijo, tomate, calabresa, azeitona");
+		Pizza pizza3 = new Pizza("queijo, tomate, ovo, presunto, ervilha, azeitona");
+		
+		CarrinhoDeCompras meuCarrinho = new CarrinhoDeCompras();
+		meuCarrinho.AdicionarPizza(pizza1);
+		meuCarrinho.AdicionarPizza(pizza2);
+		//meuCarrinho.AdicionarPizza(pizza3);
+
+		 System.out.println("Ingredientes: " + Pizza.qtdIngredientes);
+		 System.out.println("O valor total das pizzas é de: " + meuCarrinho.ValorTotal() + " reais.");
+		
+	}
+
+}

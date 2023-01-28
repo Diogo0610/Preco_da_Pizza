@@ -1,0 +1,9 @@
+package PizzaJava;
+
+public class CarrinhoDeCompras {
+	public void AdicionarPizza(Pizza pizza) {
+		if (pizza.ingredientes.isEmpty()) {
+            throw new IllegalArgumentException("Não é possível adicionar uma pizza sem ingredientes.");
+        }
+	}
+}
